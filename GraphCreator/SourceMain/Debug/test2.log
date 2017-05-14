@@ -1,0 +1,23 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(387,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (test2.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  MainControl.cpp
+c:\users\ryan\documents\graphcreator\graphcreator\graphcreator\test2\maincontrol.cpp(7): warning C4838: conversion from 'int' to 'SHORT' requires a narrowing conversion
+  DisplayContent.cpp
+  Generating Code...
+  Compiling...
+  LineGraph.cpp
+c:\users\ryan\documents\graphcreator\graphcreator\graphcreator\test2\linegraph.cpp(62): warning C4018: '<': signed/unsigned mismatch
+c:\users\ryan\documents\graphcreator\graphcreator\graphcreator\test2\linegraph.cpp(78): warning C4018: '<': signed/unsigned mismatch
+  CircleGraph.cpp
+  BaseGraph.cpp
+c:\users\ryan\documents\graphcreator\graphcreator\graphcreator\test2\basegraph.cpp(15): warning C4018: '<': signed/unsigned mismatch
+c:\users\ryan\documents\graphcreator\graphcreator\graphcreator\test2\basegraph.cpp(29): warning C4018: '<': signed/unsigned mismatch
+  Generating Code...
+  Skipping... (no relevant changes detected)
+  main.cpp
+  SimpFactory.cpp
+  LinePropContent.cpp
+  GraphControl.cpp
+  CirclePropContent.cpp
+  BaseContent.cpp
+  test2.vcxproj -> C:\Users\Ryan\Documents\GraphCreator\GraphCreator\GraphCreator\Debug\GraphCreator.exe
+  test2.vcxproj -> C:\Users\Ryan\Documents\GraphCreator\GraphCreator\GraphCreator\Debug\GraphCreator.pdb (Partial PDB)

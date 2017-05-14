@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{FB3ACD20-B182-4998-9D88-23DA0FA2C0B1}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>GraphCreator</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.15063.0</WindowsTargetPlatformVersion>
+    <ProjectName>GraphCreator</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\SourceMain\AbstractPos.h" />
+    <ClInclude Include="..\SourceMain\BaseContent.h" />
+    <ClInclude Include="..\SourceMain\BaseGraph.h" />
+    <ClInclude Include="..\SourceMain\CircleControl.h" />
+    <ClInclude Include="..\SourceMain\CircleGraph.h" />
+    <ClInclude Include="..\SourceMain\CirclePos.h" />
+    <ClInclude Include="..\SourceMain\CirclePropContent.h" />
+    <ClInclude Include="..\SourceMain\DisplayContent.h" />
+    <ClInclude Include="..\SourceMain\GraphControl.h" />
+    <ClInclude Include="..\SourceMain\GraphPropContent.h" />
+    <ClInclude Include="..\SourceMain\LineControl.h" />
+    <ClInclude Include="..\SourceMain\LineGraph.h" />
+    <ClInclude Include="..\SourceMain\LinePos.h" />
+    <ClInclude Include="..\SourceMain\LinePropContent.h" />
+    <ClInclude Include="..\SourceMain\MainControl.h" />
+    <ClInclude Include="..\SourceMain\Point.h" />
+    <ClInclude Include="..\SourceMain\SimpFactory.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\SourceMain\AbstractPos.cpp" />
+    <ClCompile Include="..\SourceMain\BaseContent.cpp" />
+    <ClCompile Include="..\SourceMain\BaseGraph.cpp" />
+    <ClCompile Include="..\SourceMain\CircleControl.cpp" />
+    <ClCompile Include="..\SourceMain\CircleGraph.cpp" />
+    <ClCompile Include="..\SourceMain\CirclePos.cpp" />
+    <ClCompile Include="..\SourceMain\CirclePropContent.cpp" />
+    <ClCompile Include="..\SourceMain\DisplayContent.cpp" />
+    <ClCompile Include="..\SourceMain\GraphControl.cpp" />
+    <ClCompile Include="..\SourceMain\GraphPropContent.cpp" />
+    <ClCompile Include="..\SourceMain\LineControl.cpp" />
+    <ClCompile Include="..\SourceMain\LineGraph.cpp" />
+    <ClCompile Include="..\SourceMain\LinePos.cpp" />
+    <ClCompile Include="..\SourceMain\LinePropContent.cpp" />
+    <ClCompile Include="..\SourceMain\main.cpp" />
+    <ClCompile Include="..\SourceMain\MainControl.cpp" />
+    <ClCompile Include="..\SourceMain\Point.cpp" />
+    <ClCompile Include="..\SourceMain\SimpFactory.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

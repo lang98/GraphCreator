@@ -1,0 +1,30 @@
+﻿  SimpFactory.cpp
+  Point.cpp
+  MainControl.cpp
+c:\users\ryan\documents\graphcreator\graphcreator\sourcemain\maincontrol.cpp(7): warning C4838: conversion from 'int' to 'SHORT' requires a narrowing conversion
+  main.cpp
+  LinePropContent.cpp
+  LinePos.cpp
+  LineGraph.cpp
+c:\users\ryan\documents\graphcreator\graphcreator\sourcemain\linegraph.cpp(62): warning C4018: '<': signed/unsigned mismatch
+c:\users\ryan\documents\graphcreator\graphcreator\sourcemain\linegraph.cpp(78): warning C4018: '<': signed/unsigned mismatch
+  LineControl.cpp
+c:\users\ryan\documents\graphcreator\graphcreator\sourcemain\linecontrol.cpp(18): warning C4018: '<': signed/unsigned mismatch
+c:\users\ryan\documents\graphcreator\graphcreator\sourcemain\linecontrol.cpp(24): warning C4018: '<': signed/unsigned mismatch
+c:\users\ryan\documents\graphcreator\graphcreator\sourcemain\linecontrol.cpp(30): warning C4018: '<': signed/unsigned mismatch
+c:\users\ryan\documents\graphcreator\graphcreator\sourcemain\linecontrol.cpp(36): warning C4018: '<': signed/unsigned mismatch
+  GraphPropContent.cpp
+  GraphControl.cpp
+  DisplayContent.cpp
+  CirclePropContent.cpp
+  CirclePos.cpp
+  CircleGraph.cpp
+  CircleControl.cpp
+  BaseGraph.cpp
+c:\users\ryan\documents\graphcreator\graphcreator\sourcemain\basegraph.cpp(15): warning C4018: '<': signed/unsigned mismatch
+c:\users\ryan\documents\graphcreator\graphcreator\sourcemain\basegraph.cpp(29): warning C4018: '<': signed/unsigned mismatch
+  BaseContent.cpp
+  AbstractPos.cpp
+  Generating Code...
+  test2.vcxproj -> C:\Users\Ryan\Documents\GraphCreator\GraphCreator\Debug\GraphCreator.exe
+  test2.vcxproj -> C:\Users\Ryan\Documents\GraphCreator\GraphCreator\Debug\GraphCreator.pdb (Partial PDB)

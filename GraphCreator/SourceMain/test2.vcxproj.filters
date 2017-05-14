@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="LineGraph.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseGraph.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="AbstractPos.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="LinePos.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Point.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphControl.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="LineControl.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="MainControl.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="SimpFactory.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseContent.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphPropContent.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="LinePropContent.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="DisplayContent.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="CircleGraph.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="CirclePos.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="CircleControl.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="CirclePropContent.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BaseGraph.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="LineGraph.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractPos.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="LinePos.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Point.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphControl.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="LineControl.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="MainControl.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpFactory.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseContent.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphPropContent.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="LinePropContent.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="DisplayContent.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="CircleGraph.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="CirclePos.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="CircleControl.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="CirclePropContent.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
