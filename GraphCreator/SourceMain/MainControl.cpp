@@ -17,7 +17,7 @@ CMainControl::CMainControl(HDC hdc)
 void CMainControl::Main()
 {	
 	
-	m_pDisContent = new CDisplayContent(m_hdc);//所有图形共用
+	m_pDisContent = new CDisplayContent(m_hdc);
 	do
 	{
 		gotoXY(0, 0);
